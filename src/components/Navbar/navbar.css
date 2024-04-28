@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: Calibri, sans-serif;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: .8em 0;
+    margin: 0;
+    background-color: rgb(22, 20, 20);
+
+}
+
+.logo {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    align-items: end;
+}
+
+.navbar-item {
+    margin-right: 3rem;
+    position: relative;
+    padding-top: 1.5em;
+}
+
+.navbar a:hover {
+    color: rgb(243, 122, 35);
+    transition: 0.6s;
+    border-bottom: solid 1px;
+
+}
+
+.navbar a {
+    font-size: 1.3em;
+    color: rgba(255, 255, 255, 0.781);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+
+.badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(211, 79, 123);
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+}
+
+.carrito {
+    position: relative;
+    color: rgb(243, 122, 35);
+}
+
+.carrito:hover {
+    position: relative;
+}
+
+.iconoCarrito:hover {
+    color: rgba(255, 255, 255, 0.781);
+    cursor: pointer;
+    width: 33px;
+    transition: 0.3s;
+}
+
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    border-bottom: 2px solid black;
+    background-color: rgb(243, 243, 243);
+  }
+  .icon-navbar{
+    height: 80%;
+    margin: 0 20px;
+  }
+  .categories-navbar{
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  .categorie-navbar{
+    font-weight: 500;
+    text-align: center;
+    width: auto;
+    height: 100%;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+  }
+  .categorie-navbar:hover{
+    cursor: pointer;
+  }
+  
+  .cartwidget{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    font-weight: bold;
+  }
+  .cartwidget:hover{
+    cursor: pointer;
+  }
